@@ -27,7 +27,6 @@ print(even_odd)
 li = [[10,20],[30,40],[50,60]]
 new_li = [ele for sublist in li for ele in sublist]
 print(new_li)
-
 '''
 Q. r1 = upper limit 1 (0,1)
    r2 = upper limit 2 (0,1,2)

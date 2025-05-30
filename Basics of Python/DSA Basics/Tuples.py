@@ -35,3 +35,11 @@ new_tup = (10,20,30,40)
 ele1,ele2,ele3,ele4 = new_tup
 print(ele1,ele2,ele3,ele4)
 print('Value of ele:',ele1,ele2)
+
+
+#unpacking
+
+name,*marks,age = ['Priya',12,32,42,4]
+print(name)
+print(marks)
+print(age)
